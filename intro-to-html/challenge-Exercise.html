@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .hon{
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            border: solid;
+            border-color: grey;
+            border-width: 1px;
+            border-radius: 6px;
+        }
+        .flex{
+            display: flex;
+            flex-direction: row;
+            row-gap: 10px;
+            justify-content: space-between;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            align-items: center;
+        }
+        .notification{
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: rgb(0, 76, 255);
+            border-radius: 20px;
+            color: white;
+            justify-content: space-between;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .Big-box{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+        }
+        .oliver{
+            font-weight: bold;
+            margin-bottom: 2px;
+            margin-top: 2px;
+            margin-left: 13px;
+            font-size: 16px;
+        }
+        .the-cat{
+            color: rgb(96, 96, 96);
+            margin-top: 5px;
+            margin-left: 12px;
+            margin-bottom: 0px;
+            width: 120px;
+        }
+        .cat-pic{
+            width: 55px;
+            height: 55px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+        }
+        .popular{
+            margin-top: 5px;
+            margin-left: 12px;
+            color: rgb(96, 96, 96);
+        }
+        .follow{
+            background-color: rgb(44, 135, 205);
+            color: white;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border: none;
+            margin-left: 80px;
+            margin-top: 10px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .header{
+            display: flex;
+            background-color: rgb(162, 67, 159);
+            height: 60px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        .Home{
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .search-box{
+            width: 400px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border: none;
+            border-radius: 20px;
+        }
+        .download{
+            border-style: solid;
+            border-color: white;
+            color: white;
+            background-color: rgb(162, 67, 159);
+            border-width: 1px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div class="hon">
+        <div class="flex">
+            <div>Home</div>
+            <div class="notification">14</div>
+        </div>
+        <div class="flex">
+            <div>Notification</div>
+            <div class="notification">3</div>
+        </div>
+        <div class="flex">
+            <div>Messages</div>
+            <div class="notification">5</div>
+        </div>
+    </div>
+    
+    <div class="Big-box">
+        <div class="cat"><img src="Cat.jpg" alt="cat-image" class="cat-pic"></div>
+        <div class="cat-popular">
+            <p class="oliver">oliver</p>
+            <p class="the-cat">the cat</p>
+            <p class="popular">Popular</p>
+        </div>
+        <div class="button"><button class="follow">Follow</button></div>
+    </div>
+    <div class="Big-box">
+        <div class="cat"><img src="Cat1.jpg" alt="cat-image" class="cat-pic"></div>
+        <div class="cat-popular">
+            <p class="oliver">Mimi</p>
+            <p class="the-cat">Sleepy Cat</p>
+            <p class="popular">Popular</p>
+        </div>
+        <div class="button"><button class="follow">Follow</button></div>
+    </div>
+    <div class="Big-box">
+        <div class="cat"><img src="dog.jpg" alt="cat-image" class="cat-pic"></div>
+        <div class="cat-popular">
+            <p class="oliver">Rex</p>
+            <p class="the-cat">Happy Bulldog</p>
+            <p class="popular">Popular</p>
+        </div>
+        <div class="button"><button class="follow">Follow</button></div>
+    </div><br>
+
+    <div class="header">
+        <div class="left-section">
+            <a href="" class="Home">Home</a>
+        </div>
+        <div class="middle-section">
+            <input type="text" class="search-box" placeholder="Search">
+        </div>
+        <div class="right-section">
+            <button class="download">
+                Download
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

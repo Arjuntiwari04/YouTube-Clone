@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+    </head>
+    <style>
+        .Grid-pra{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .create{
+            background-color: lightblue;
+        }
+        .px75{
+            background-color: brown;
+        }
+        .columns{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .col1{
+            background-color: aqua;
+        }
+        .col2{
+            background-color: lightcoral;
+        }
+        .col3{
+            background-color: aqua;
+        }
+        .columns4{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        .Col1,
+        .Col2,
+        .Col3,
+        .Col4,
+        .Col5,
+        .Col6,
+        .Col7,
+        .Col8 {
+            background-color: lightcoral;
+        }
+
+    </style>
+    <body style="padding-bottom: 1000px;">
+        <div style="
+        display:grid;
+        grid-template-columns: 100px 100px;
+        ">
+            <div style="background-color: lightblue;">div 1</div>
+            <div style="background-color: lightpink;">div 2 <p>text</p></div>
+        </div>
+        <div style="
+        margin-top: 30px;
+        display:grid;
+        grid-template-columns: 100px 1fr;
+        ">
+            <div style="background-color: lightblue;">div 1</div>
+            <div style="background-color: lightpink;">1fr</div>
+        </div>
+        <div style="
+        margin-top:30px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap:40px;
+        ">
+            <div style="background-color: lightblue; height:200px;">1fr</div>
+            <div style="background-color: lightpink; height:200px;">1fr</div>
+            <div style="background-color: lightblue; height:200px;">1fr</div>
+            <div style="background-color: lightpink; height:200px;">1fr</div>
+            <div style="background-color: lightblue; height:200px;">1fr</div>
+            <div style="background-color: lightpink; height:200px;">1fr</div>
+        </div><br><br><br> 
+
+
+
+
+        <div class="Grid-pra">
+            <div class="create">200px</div>
+            <div class="px75">75px</div>
+        </div><br><br>
+
+        <div class="columns">
+            <div class="col1">col1-50px</div>
+            <div class="col2">col2-1fr</div>
+            <div class="col3">col3-75px</div>
+        </div><br><br>
+
+        <div class="columns4">
+            <div class="Col1">col1</div>
+            <div class="Col2">col2</div>
+            <div class="Col3">col3</div>
+            <div class="Col4">col4</div>
+            <div class="Col5">col5</div>
+            <div class="Col6">col6</div>
+            <div class="Col7">col7</div>
+            <div class="Col8">col8</div>
+        </div>
+
+
+    </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex Practice</title>
+    <style>
+        .create{
+            display: flex;
+        }
+        .col20{
+            background-color: lightblue;
+            width: 200px;
+        }
+        .col75{
+            background-color: lightcoral;
+            width: 75px;
+        }
+        .item{
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .item1{
+            background-color: lightblue;
+            width: 50px;
+        }
+        .item2{
+            background-color: lightpink;
+            flex: 1;
+        }
+        .item3{
+            background-color: lightblue;
+            width: 75px;
+        }
+        .items{
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: space-between;
+        }
+        .items1{
+            background-color: lightblue;
+        }
+        .items2{
+            background-color: lightpink;
+        }
+        .items3{
+            background-color: lightblue;
+        }
+        .items4{
+            background-color: lightpink;
+        }
+        .two-items {
+            display: flex;
+            height: 50px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .one-item{
+            background-color: lightpink;
+        }
+        .two-item{
+
+            background-color: lightpink;
+        }
+        
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="create">
+        <div class="col20">200px</div>
+        <div class="col75">75px</div>
+    </div>
+
+    <div class="item">
+        <div class="item1">item1</div>
+        <div class="item2">item2</div>
+        <div class="item3">item3</div>
+    </div>
+    <div class="items">
+        <div class="items1">item1</div>
+        <div class="items2">item2</div>
+        <div class="items3">item3</div>
+        <div class="items4">item4</div>
+    </div>
+    <div class="two-items">
+        <div class="one-item">item1</div>
+        <div class="two-item">item2</div>
+    </div>
+
+
+
+</body>
+</html>

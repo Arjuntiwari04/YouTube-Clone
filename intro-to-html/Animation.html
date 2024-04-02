@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+        .animation{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 35px;
+            position: relative;
+            animation-name: lol;
+            animation-duration: 6s;
+            animation-delay: -2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes lol{
+            0% {background-color: red; left: 0px; top: 0px;}
+            25% {background-color: yellow; left: 200px; top: 0px;}
+            50% {background-color: blue; left: 200px; top: 200px;}
+            75% {background-color: purple; left: 0px; top: 200px;}
+            100% {background-color: rgb(103, 14, 14);left: 0px; top: 0px;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="ani">Animation</h1>
+    <div class="animation"></div>
+
+
+
+
+
+</body>
+</html>
